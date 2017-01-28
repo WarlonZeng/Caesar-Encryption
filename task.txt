@@ -1,0 +1,11 @@
+Solve the Caesar Cipher problem.
+
+As the user if they'd like to encrypt or decrypt the file.  Ask for the string key.  Ask for the input and output filename.
+
+The encryption is solved by adding the numeric values of the key to the input .  
+This may mean that the key needs to be repeated many times.  
+The numeric values of the key can be calculated by determining the offset of the letter into the alphabet (a=0, b=1, c=2, etc).  
+Please note, that the key will only contain letters, the input may contain other characters, but the key will only contain letters and it is NOT case sensitive.  
+Upper case will always convert to upper case.  
+Lower case will always convert to lower case.  
+For example, "Hello world!" + "Password" ="Weddk nrglv!"
